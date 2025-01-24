@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Vladilen CV</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="./avatar.jpeg" alt="тут моя фотка">
+            <div class="info-text">
+                <h1>Владилен Минин</h1>
+                <p><em>Я основатель одноименного <strong>Youtube канала</strong></em></p>
+                <p>Я люблю путешествовать, заниматься спортом и программировать</p>
+    
+                <h4>Мои социальные сети</h4>
+                <a href="https://instagram.com/vladilen.minin" target="_blank">Instagram</a> |
+                <a href="https://telegram.org/js_by_vladilen" target="_blank">Telegram</a>
+            </div>
+        </div>
+    
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Блоггер</li>
+                <li>Быстрая езда на машинах</li>
+                <li>Спорт:
+                    <ol>
+                        <li>ММА</li>
+                        <li>Лыжи</li>
+                    </ol>
+                </li>
+                <li>Путешествия</li>
+            </ol>
+        </div>
+    
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tr>
+                    <td>LPTracker</td>
+                    <td>Frontend</td>
+                    <td>2015 – 2016</td>
+                </tr>
+                <tr>
+                    <td>EPAM</td>
+                    <td>Software Engineer</td>
+                    <td>2016 – 2017</td>
+                </tr>
+                <tr>
+                    <td>Software Outsorsing Services</td>
+                    <td>Lead Frontend</td>
+                    <td>2017 – 2019</td>
+                </tr>
+                <tr>
+                    <td>Youtube</td>
+                    <td>Blogger</td>
+                    <td>2019 – now</td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="card bg-red">
+            <h2>Youtube курсы</h2>
+            <ul class="link-list">
+                <li>
+                    <a href="https://youtu.be/Bluxbh9CaQ0?si=pEFxzRp-7ZuBBvtM" target="_blank">JavaScript Основы для Начинающих - Полный Курс за 6 часов</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/n9uCgUzfeRQ?si=tPiRG2DrUn4V30XJ" target="_blank">Docker для Начинающих – Полный Курс</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя: </label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Ваш email: </label>
+                        <input type="email" id="email" placeholder="Введите email...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение: </label>
+                    <textarea id="message"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Связаться!">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

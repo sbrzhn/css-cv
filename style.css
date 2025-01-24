@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #00f;
+}
+
+a:visited {
+    color: #808080;
+}
+
+.avatar {
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(0 0 0 / .25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+}
+
+.bg-red {
+    background-color: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 0 10px;
+
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    
+    color: #000;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    margin-block: 20px;
+    border: none;
+    color: #fff;
+    background-color: #111;
+    font-family: inherit;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .9;
+}
